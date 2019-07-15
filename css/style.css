@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  header {
+    width: 100%;
+  }
+  .wrapper {
+      width: 770px;
+      margin: 0 auto;
+  }
+  .dop3 {
+      display: flex;
+      justify-content: space-between;
+  }
+  .header3 {
+      width: 100%;
+      background-color: brown;
+      padding: 10px;
+      margin: 10px 0;
+  }
+  .content3 {
+      background-color: coral;
+      width: 40%;
+      padding: 10px;
+  }
+  .sidebar3 {
+      background-color: darkkhaki;
+      width: 58%;
+      padding: 10px;
+  }
+
+  /* --------------------------Mtdia------------------------------------------------ */
+
+@media (max-width: 768px) {
+    .header3 {
+        max-width: 100%;
+        padding: 10px;
+        /* display: block; */
+        margin: 10px;
+        font-size: 25px;   
+    }
+    .dop3 {
+        display: block;
+    }
+    .content3 {
+        width: 100%;
+        font-size: 25px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .sidebar3 {
+        width: 100%;
+        font-size: 25px;
+        padding: 10px;
+        margin: 10px;
+    }
+}
